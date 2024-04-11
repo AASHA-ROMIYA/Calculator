@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+.body{
+    background-color: rgb(241, 194, 250);
+   /* background-image: url(../IMAGES/imageback1.jpg);
+    background-size: cover;*/
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: top;
+   justify-items: center;
+   color:black;
+   cursor: pointer;
+   user-select: none;
+height:100vh;
+width:100vw;
+position:fixed;
+}
+.theme{
+    height: 25px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(215, 250, 250);
+    cursor: pointer;
+    user-select: none;
+    color:black;
+    text-align: center;
+    align-content: center;
+    
+   
+
+}
+.changeTheme{
+    background-color: rgba(0, 0, 0,0.6);
+    color:aquamarine;
+    
+
+}
+.view{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    
+   display:none;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+border-radius: 20px;;
+   background-color:rgba(236, 240, 243, 0.5) ;
+   color:black;
+   width:270px;
+}
+.hover{
+    transform: translateY(-50px);
+}
+.sum{
+    display: flex;
+    padding:10px;
+    margin-top:-10px;
+    user-select: none;
+    
+}
+.aa{
+    background-color: rgba(236, 240, 243,0.7);
+    margin:8px;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border:none;
+box-shadow: inset 1px 2px 2px 1px #ecf0f3 ,1px 2px 3px 5px #ecf0f3;
+    cursor: pointer;
+    
+}
+.input{
+    width:220px;
+    background-color: rgba(236, 240, 243,0.8);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height:50px;
+    display:flex;
+    text-align: right;
+    border-radius: 30px;
+    border:none;
+    box-shadow: inset -5px -5px 12px #ecf0f3 , inset 5px 5px 12px rgba(0, 0, 0,0.3);
+font-size: 30px;;
+outline: none;
+
+}
+h1{
+    opacity:1.0;
+    display:flex;
+}
+.tran{
+    transition-delay: 5s ;
+}
